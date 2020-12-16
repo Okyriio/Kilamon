@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Spell : ScriptableObject
+public class Spell : MonoBehaviour
 {
-    [SerializeField] Projectile projectilePrefab;
-    public float minDamage;
-    public float maxDamage;
-    public float projectileForce;
+    [SerializeField] GameObject projectilePrefab;
+    [SerializeField] float minDamage;
+    [SerializeField] float maxDamage;
+    [SerializeField] float projectileForce;
     
     void Update()
     {
@@ -19,8 +19,8 @@ public class Spell : ScriptableObject
            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
            Vector2 myPos = transform.position;
            Vector2 direction = (mousePos - myPos).normalized;
-           spell.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
-           spell.GetComponent<Projectile>().Damage = Random.Range(minDamage, maxDamage);
+           projectilePrefab.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
+           projectilePrefab.GetComponent<Projectile>().Damage = Random.Range(minDamage, maxDamage);
         }
     }
 }

@@ -12,8 +12,8 @@
           <e p="EnemyMovement.cs" t="Include" />
           <e p="EnemyProjectile.cs" t="Include" />
           <e p="EnemyReceiveDamage.cs" t="Include" />
+          <e p="EnemyShooting.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />
-          <e p="EnnemyShooting.cs" t="Include" />
           <e p="HealthPickup.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
