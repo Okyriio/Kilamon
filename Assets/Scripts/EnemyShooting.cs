@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class EnnemyShooting : EnemyAttack
+public class EnemyShooting : EnemyAttack
 {
     public GameObject projectile;
     public float minDamage;
