@@ -26,7 +26,7 @@ public class EnnemyShooting : EnemyAttack
             Vector2 targetPos = player.transform.position;
             Vector2 direction = (targetPos - myPos).normalized;
             spell.GetComponent<Rigidbody2D>().velocity = direction * ProjectileForce;
-            spell.GetComponent<EnnemyProjectile>().damage = Random.Range(minDamage, maxDamage);
+            spell.GetComponent<EnemyProjectile>().damage = Random.Range(minDamage, maxDamage);
             StartCoroutine(ShootPlayer());
         }
         
