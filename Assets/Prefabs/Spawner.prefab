@@ -95,8 +95,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 535a6edc2d48a2a41976561ab4a4e905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTime: 6
-  spawnDelay: 2
-  enemies:
+  enemiesPrefabs:
   - {fileID: 7450430503361248229, guid: a4ed0935f2b85a246acb4bce435c034e, type: 3}
-  enposition: {x: 0, y: 0, z: 0}

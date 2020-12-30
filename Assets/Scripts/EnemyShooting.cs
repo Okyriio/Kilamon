@@ -6,10 +6,10 @@ using Random = UnityEngine.Random;
 public class EnemyShooting : EnemyAttack
 {
     public GameObject projectile;
-    public float minDamage;
-    public float maxDamage;
-    public float ProjectileForce;
-    public float cooldown;
+    [SerializeField] float minDamage;
+    [SerializeField] float maxDamage;
+    [SerializeField] float ProjectileForce;
+    [SerializeField] float cooldown;
     void Start() // Projectile follows the player 
     {
         StartCoroutine(ShootPlayer());

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6663722271467341487}
   - component: {fileID: 7673519985638146444}
   - component: {fileID: 3857356688411717143}
-  - component: {fileID: -5741763681531474368}
+  - component: {fileID: 7398252181421180571}
   m_Layer: 0
   m_Name: 0x72_16x16DungeonTileset.v3_14
   m_TagString: Enemy
@@ -122,7 +122,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-5741763681531474368
+--- !u!114 &7398252181421180571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,8 +131,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2816875208746904701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0eb3b5902fe7fa4e94d9012e58e5694, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c319d69428fdeb48b7d956e71a6f25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   TimeToLive: 3

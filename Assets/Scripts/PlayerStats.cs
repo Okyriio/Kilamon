@@ -7,11 +7,11 @@ using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats playerStats;
-    public GameObject player;
-    public Text healthtext;
-    public Slider healthSlider;
-    public float health;
-    public float maxHealth;
+    private GameObject player;
+    [SerializeField] Text healthtext;
+    [SerializeField] Slider healthSlider;
+    [SerializeField] float health;
+    [SerializeField] float maxHealth;
     public bool GameIs = true;
 
     void Awake()

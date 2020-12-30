@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6966c94516e3cb448b981ce2b39100e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 150
   maxHealth: 150
   Congratulations: {fileID: 2649484940063954118, guid: 5097e8304ee68b648b97def2a4d08fa0, type: 3}
   healthbar: {fileID: 845818428}
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c319d69428fdeb48b7d956e71a6f25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 20
   TimeToLive: 3
 --- !u!1001 &5751490966162524918
 PrefabInstance:
