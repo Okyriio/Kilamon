@@ -17,8 +17,8 @@ void Start()
 
 IEnumerator SpawnEnemy()
 {
-    _x = Random.Range(-2, 2);
-    _y = Random.Range(-2, 2);
+    _x = Random.Range(-3, 3);
+    _y = Random.Range(-2, 3);
     _spawnPos.x += _x;
     _spawnPos.y += _y;
     Instantiate(enemies[0], _spawnPos, Quaternion.identity);
