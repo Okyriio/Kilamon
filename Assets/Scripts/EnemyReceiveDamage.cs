@@ -16,7 +16,7 @@ public class EnemyReceiveDamage : MonoBehaviour
     const float dropChanceLil = 1f / 2f;
     const float dropChanceMed = 1f / 6f;
     const float dropChanceBig = 1f / 13f;// Set odds here
-    public static int aliveCounter = 22;
+    public static int aliveCounter = 25;
     
     void Start()
     {

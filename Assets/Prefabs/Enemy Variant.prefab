@@ -498,10 +498,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 2816875208746904701, guid: 3b391e8c7f690b6499f8f727418ccaaa, type: 3}
-  minDamage: 10
-  maxDamage: 20
-  ProjectileForce: 22
-  cooldown: 2
+  minDamage: 20
+  maxDamage: 30
+  ProjectileForce: 25
+  cooldown: 1
 --- !u!114 &1888476970111492812
 MonoBehaviour:
   m_ObjectHideFlags: 0
