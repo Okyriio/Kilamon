@@ -5,14 +5,14 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class EnemyReceiveDamage : MonoBehaviour
 {
-    public float health;
-    public float maxHealth;
+    [SerializeField] float health;
+    [SerializeField] float maxHealth;
     public GameObject Congratulations;
     public GameObject healthbar;
     public Slider healthbarslider;
-    public GameObject HealthDropLil;
-    public GameObject HealthDropMed;
-    public GameObject HealthDropBig;
+    [SerializeField] GameObject HealthDropLil;
+    [SerializeField] GameObject HealthDropMed;
+    [SerializeField] GameObject HealthDropBig;
     const float dropChanceLil = 1f / 2f;
     const float dropChanceMed = 1f / 6f;
     const float dropChanceBig = 1f / 13f;// Set odds here

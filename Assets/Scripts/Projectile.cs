@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private float damage_;
+    private float _damage;
     private const float TimeToLive = 3f;
 
     public float Damage
     {
-        get => damage_;
-        set => damage_ = value;
+        get => _damage;
+        set => _damage = value;
     }
 
     private void Start()
@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
         {
             if (collision.GetComponent<EnemyReceiveDamage>() != null)
             {
-                collision.GetComponent<EnemyReceiveDamage>().DealDamage(damage_);
+                collision.GetComponent<EnemyReceiveDamage>().DealDamage(_damage);
             }
             
         }

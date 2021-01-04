@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
-    public float damage;
-    public float TimeToLive = 3f;
+    private float TimeToLive = 3f;
+    private float _damage;
+    public float EnemyDamage
+    {
+        get => _damage;
+        set => _damage = value;
+    }
+    
     private void Start()
     {
         Destroy(gameObject, TimeToLive);
@@ -15,9 +21,10 @@ public class EnemyProjectile : MonoBehaviour
     {
         if (collision.tag != "Enemy")
         {
+            Destroy(gameObject);
             if (collision.tag == "Player")
             {
-                PlayerStats.playerStats.DealDamage(damage);
+                PlayerStats.playerStats.DealDamage(_damage);
             }
         }
     }

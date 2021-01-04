@@ -485,6 +485,23 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-8789860704938303067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450430503361248229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd6f1cca8686ac44a64c4339345ed07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 2816875208746904701, guid: 3b391e8c7f690b6499f8f727418ccaaa, type: 3}
+  minDamage: 10
+  maxDamage: 20
+  ProjectileForce: 22
+  cooldown: 2
 --- !u!114 &1888476970111492812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,20 +522,6 @@ MonoBehaviour:
   HealthDropLil: {fileID: 3863163008963217582, guid: b876931e84be10142979545ede0866b6, type: 3}
   HealthDropMed: {fileID: 1446416913042878904, guid: 36c5ffe91ecd9d64cb29f91293a136f8, type: 3}
   HealthDropBig: {fileID: 1763439293227753741, guid: 9c5f993ad14657b40af43ce678c20f20, type: 3}
---- !u!114 &8794944058296932593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7450430503361248229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c319d69428fdeb48b7d956e71a6f25f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 20
-  TimeToLive: 3
 --- !u!1001 &5751490966162524918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -529,6 +532,10 @@ PrefabInstance:
     - target: {fileID: 2933067792572264723, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
       propertyPath: m_Name
       value: Enemy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933067792572264723, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2933067792572264728, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
       propertyPath: m_Size.x
@@ -632,10 +639,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 530211181309864700, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
-    - {fileID: 2933067792572264735, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
     - {fileID: 2933067792572264733, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
-    - {fileID: 4461345505033427384, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
+    - {fileID: 0}
     - {fileID: 6453740444468509665, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
+    - {fileID: 2933067792572264735, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4433bf46a12782b4eaaaf04bf2181d88, type: 3}
 --- !u!1 &7450430503361248229 stripped
 GameObject:

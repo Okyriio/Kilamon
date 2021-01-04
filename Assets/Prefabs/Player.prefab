@@ -15,10 +15,9 @@ GameObject:
   - component: {fileID: 2933067792572264735}
   - component: {fileID: 530211181309864700}
   - component: {fileID: 7301051076732028409}
-  - component: {fileID: 6453740444468509665}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Enemy
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044f8497f4a3d1546a750c379536463b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
 --- !u!114 &530211181309864700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,9 +158,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5668609557688764355, guid: c1c30a359efeacb4aa124b1c7a11e159, type: 3}
-  minDamage: 30
-  maxDamage: 50
-  projectileForce: 4
+  minDamage: 20
+  maxDamage: 30
+  projectileForce: 25
 --- !u!50 &7301051076732028409
 Rigidbody2D:
   serializedVersion: 4
@@ -183,21 +182,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6453740444468509665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2933067792572264723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10c81c5171f542d46848f44fda0ed2a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 2933067792572264723}
-  healthtext: {fileID: 1163452351138022799, guid: a273c9f78ff010f4386c431aabedeedd, type: 3}
-  healthSlider: {fileID: 6666067384316420824, guid: 60c445ee9dc0d924b8d17797e7902ef2, type: 3}
-  health: 0
-  maxHealth: 200
-  GameIs: 1

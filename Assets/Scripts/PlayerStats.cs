@@ -37,8 +37,10 @@ public class PlayerStats : MonoBehaviour
     public void DealDamage(float damage)
     {
         health -= damage;
-        CheckDeath();
         ShowHealth();
+        CheckDeath();
+       
+        healthSlider.value = CalculateHealth();    
 
     }
 
@@ -65,8 +67,9 @@ public class PlayerStats : MonoBehaviour
 
     float CalculateHealth()
     {
-        return (health / maxHealth);
+        return health / maxHealth;
     }
+    
     private void CheckDeath()
     {
         if (health <= 0)

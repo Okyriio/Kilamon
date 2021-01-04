@@ -15,12 +15,12 @@ public class Spell : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-           var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+           GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
            Vector2 myPos = transform.position;
            Vector2 direction = (mousePos - myPos).normalized;
-           projectilePrefab.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
-           projectilePrefab.GetComponent<Projectile>().Damage = Random.Range(minDamage, maxDamage);
+           projectile.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
+           projectile.GetComponent<Projectile>().Damage = Random.Range(minDamage, maxDamage);
         }
     }
 }
