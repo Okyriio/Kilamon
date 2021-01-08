@@ -5,7 +5,7 @@ using Random = UnityEngine.Random;
 
 public class EnemyShooting : EnemyAttack
 {
-    public GameObject projectile;
+    [SerializeField] GameObject projectile;
     [SerializeField] float minDamage;
     [SerializeField] float maxDamage;
     [SerializeField] float ProjectileForce;

@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour // Simply the menu
    {
        //Application.LoadLevel("Level01");
        SceneManager.LoadScene("Level01");
-       
+
    }
 
    public void OpenSettings()

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;
-    public float smoothing;
-    public Vector3 offset;
+    [SerializeField] Transform player;
+    [SerializeField] float smoothing;
+    [SerializeField] Vector3 offset;
 
     void FixedUpdate() // Camera that follows the player
     {

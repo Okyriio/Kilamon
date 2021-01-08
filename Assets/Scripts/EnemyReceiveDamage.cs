@@ -7,9 +7,9 @@ public class EnemyReceiveDamage : MonoBehaviour
 {
     [SerializeField] float health;
     [SerializeField] float maxHealth;
-    public GameObject Congratulations;
-    public GameObject healthbar;
-    public Slider healthbarslider;
+    [SerializeField] GameObject Congratulations;
+    [SerializeField] GameObject healthbar;
+    [SerializeField] Slider healthbarslider;
     [SerializeField] GameObject HealthDropLil;
     [SerializeField] GameObject HealthDropMed;
     [SerializeField] GameObject HealthDropBig;
