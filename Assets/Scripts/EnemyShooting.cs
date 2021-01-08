@@ -21,6 +21,7 @@ public class EnemyShooting : EnemyAttack
         yield return new WaitForSeconds(cooldown);
         if (player != null)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Spells/EnemySpell");
             GameObject spell = Instantiate(projectile, transform.position, Quaternion.identity);
             Vector2 myPos = transform.position;
             Vector2 targetPos = player.transform.position;

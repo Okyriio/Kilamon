@@ -31,6 +31,7 @@ public class EnemyReceiveDamage : MonoBehaviour
         health -= damage;
         CheckDeath();
         healthbarslider.value = CalculateHealth();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Hurt/EnemyHurt");
     }
 
     private void CheckOverheal()

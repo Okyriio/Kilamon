@@ -39,7 +39,7 @@ public class PlayerStats : MonoBehaviour
         health -= damage;
         ShowHealth();
         CheckDeath();
-       
+       FMODUnity.RuntimeManager.PlayOneShot("event:/Hurt/PlayerHurt");
         healthSlider.value = CalculateHealth();    
 
     }
@@ -53,6 +53,7 @@ public class PlayerStats : MonoBehaviour
 
     public void HealCharacter(float heal)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/HEAL/HEAL");
         health += heal;
         CheckOverheal();
         ShowHealth();

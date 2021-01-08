@@ -69,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) // Makes the player DASH
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/DASH/DASH2");
 
             _targetPos = Vector2.zero;
             if (_facingDir == Facing.UP)
