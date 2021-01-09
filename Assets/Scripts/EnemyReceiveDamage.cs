@@ -70,8 +70,9 @@ public class EnemyReceiveDamage : MonoBehaviour
 
         if (aliveCounter == 0)
         {
+           
             Congratulations.SetActive(true);  //Scene switch when game ended
-            
+            FMODUnity.RuntimeManager.MuteAllEvents(true);
             SceneManager.LoadScene("MainMenu");
             
         }

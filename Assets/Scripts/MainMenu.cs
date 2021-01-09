@@ -6,8 +6,15 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour // Simply the menu
 {
     public GameObject settingsPanel;
-   public void StartGame()
-   {
+
+    public void Music()
+    {
+        FMODUnity.RuntimeManager.MuteAllEvents(false);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/MUSIC/Good for Nothing Safety");
+    }
+    public void StartGame()
+    {
+        Music();
        //Application.LoadLevel("Level01");
        SceneManager.LoadScene("Level01");
 

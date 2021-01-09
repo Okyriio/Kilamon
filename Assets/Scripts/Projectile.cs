@@ -22,6 +22,7 @@ public class Projectile : MonoBehaviour
     {
         if (collision.name != "Player")
         {
+            //Destroy(gameObject);
             if (collision.GetComponent<EnemyReceiveDamage>() != null)
             {
                 collision.GetComponent<EnemyReceiveDamage>().DealDamage(_damage);
