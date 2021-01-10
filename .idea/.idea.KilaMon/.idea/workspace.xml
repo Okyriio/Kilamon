@@ -21,11 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="884c0d79-d9ab-495f-9a3c-3b2e187e0422" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KilaMon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KilaMon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyReceiveDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyReceiveDamage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +49,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyReceiveDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +105,8 @@
       <workItem from="1609340683188" duration="1421000" />
       <workItem from="1609778685423" duration="6531000" />
       <workItem from="1610054691012" duration="3023000" />
-      <workItem from="1610126894899" duration="5970000" />
+      <workItem from="1610126894899" duration="6253000" />
+      <workItem from="1610289001801" duration="7236000" />
     </task>
     <servers />
   </component>
@@ -128,10 +131,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1609341161676">
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1610295465408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1609341161676" />
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1610295465408" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609340775388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

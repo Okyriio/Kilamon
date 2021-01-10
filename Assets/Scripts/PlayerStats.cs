@@ -78,7 +78,7 @@ public class PlayerStats : MonoBehaviour
             health = 0;
             Destroy(player);
             SceneManager.LoadScene("Level01");
-            EnemyReceiveDamage.aliveCounter = 25;
+            EnemyReceiveDamage.aliveCounter = 32;
         }
     }
 }

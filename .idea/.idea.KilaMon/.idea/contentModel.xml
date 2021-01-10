@@ -132,6 +132,7 @@
           <e p="EnemySpawner.cs" t="Include" />
           <e p="HealthPickup.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />
