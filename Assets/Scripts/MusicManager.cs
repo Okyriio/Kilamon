@@ -5,6 +5,8 @@ using UnityEngine;
 public class MusicManager : MonoBehaviour
 {
     private static MusicManager _instance ;
+    [FMODUnity.EventRef] [SerializeField] private string _mainSong = ""; 
+ 
     void Awake()
     {
         if (!_instance)
@@ -14,13 +16,13 @@ public class MusicManager : MonoBehaviour
 
         else
         {
-            Destroy(this.gameObject) ;
+            Destroy(gameObject) ;
         }
         DontDestroyOnLoad(gameObject);
     }
 
     void Start()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/MUSIC/Good for Nothing Safety");
+        FMODUnity.RuntimeManager.PlayOneShot(_mainSong);
     }
 }
