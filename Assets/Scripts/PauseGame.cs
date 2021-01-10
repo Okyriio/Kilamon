@@ -14,14 +14,6 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     
     
-    public void  Resume()
-    { 
-                                              
-        pauseMenu.SetActive(false);
-                                             
-    }
-    
-    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,13 +21,21 @@ public class PauseGame : MonoBehaviour
              if (pauseMenu.activeInHierarchy == false)
              {
                  pauseMenu.SetActive(true);
+                 Time.timeScale = 0;
              }
              else
              {
                  pauseMenu.SetActive(false);
+                 Time.timeScale = 1;
              }
         }
        
+    }
+    
+    public void ResumeGame ()
+    {
+        pauseMenu.SetActive(false);
+        
     }
     
   
