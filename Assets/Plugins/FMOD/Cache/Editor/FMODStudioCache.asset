@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: ../FMOD Studio/KILAMON/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637459874347545968
+  lastModified: 637459882635012227
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -73,7 +73,7 @@ MonoBehaviour:
   - {fileID: 3170904203924403605}
   StringsBanks:
   - {fileID: -1261249197613559544}
-  stringsBankWriteTime: 637459874347545968
+  stringsBankWriteTime: 637459882635012227
   cacheVersion: 6
 --- !u!114 &803295312731568601
 MonoBehaviour:
@@ -159,7 +159,7 @@ MonoBehaviour:
   Path: ../FMOD Studio/KILAMON/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637459874347525862
+  lastModified: 637459882634982215
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -241,7 +241,7 @@ MonoBehaviour:
   Path: ../FMOD Studio/KILAMON/Build/Desktop/Sounds.bank
   Name: Sounds
   StudioPath: bank:/Sounds
-  lastModified: 637459874347825928
+  lastModified: 637459882635272286
   LoadResult: 0
   FileSizes: []
   Exists: 1
